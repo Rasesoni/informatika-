@@ -16,3 +16,15 @@ elif -0.5<(sin(x+y))<0.5:
 else:
     f=pow(x,3)+pow(y,1.5)
 print(f)
+//////////////////
+#Задание 3
+from math import *
+a=float(input('enter a:'))
+b=float(input('enter b:'))
+hx=float(input("enter hx:"))
+x=a
+while x < b:
+    f=pow(cos(e**x),3)+sin(fabs(x))
+    x=x+hx
+    print(f)
+    
