@@ -1,0 +1,18 @@
+#Задание 1
+from math import *
+x=float(input('enter x:'))
+y=float(input('enter y:'))
+f=log(fabs(x+y))
+print(f)
+//////////////////
+#Задание 2
+from math import *
+x=float(input('enter x:'))
+y=float(input('enter y:'))
+if(sin(x+y))<=-0.5:
+    f=atan(pow(fabs(x-y),1.0/3.0))*(x*pow(exp,y))
+elif -0.5<(sin(x+y))<0.5:
+    f=3*log(fabs(x*y),3)
+else:
+    f=pow(x,3)+pow(y,1.5)
+print(f)
