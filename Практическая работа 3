@@ -27,4 +27,20 @@ while x < b:
     f=pow(cos(e**x),3)+sin(fabs(x))
     x=x+hx
     print(f)
+///////////////////////////////////
+#Задание 4
+from math import *
+ax, bx, hx = 1.0, 2.5, 0.5
+ay, by, hy = 1.0, 4.0, 1.0
+x = ax 
+while x<= bx: 
+    y = ay 
+    while y<= by: 
+        if x + y <= 2:
+            f = sin(x*exp(0.1*y))**(1/3)
+        else:
+            f = fabs(log(x+y,2))
+            print('x: = ', x, 'y = ', y, 'f = ', f) 
+        y = y + hy 
+        x = x + hx
     
