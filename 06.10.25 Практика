@@ -12,3 +12,23 @@ int main() {
 
     return 0;
 }
+
+
+#include <iostream>
+#include <ctime>
+using namespace std;
+int main() {
+    srand(time(0));
+    int h;
+    cout << "Введите значение:";
+    cin >> h;
+    int a [h];
+    for(int i=0 ;i<h;i++){
+        a[i]=rand()%20 - rand()%20;
+    }
+    for(int i=0 ;i<h;i++){
+        cout << a[i] <<' ';
+    }
+
+    return 0;
+}
